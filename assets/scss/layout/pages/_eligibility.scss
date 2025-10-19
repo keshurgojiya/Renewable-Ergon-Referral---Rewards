@@ -1,0 +1,68 @@
+@use '../../utils' as *;
+
+.eligibility-rules-section{
+    background: var(--theme-primary-color);
+    padding-top: 80px;
+    padding-bottom: 0;
+    overflow: hidden;
+    .section-title-box{
+        margin-bottom: 40px;
+    }
+    .brand-logo{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .eligibility-wrapper{
+        .eligibility-cont-area{
+            padding-bottom: 99px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+              img{
+                margin-bottom: 45px;
+                width: 141px;
+                height: 70px;
+                object-fit: contain;
+              }
+              ul{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 15px;
+                padding-left: 20px;
+                li{
+                   font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 20px;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                    color: #ffffff;
+                }
+              }
+              p.note{
+                margin-bottom: 0;
+                margin-top: 136px;
+                color: #ffffff;
+                font-family: Poppins;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0%;
+                max-width: 517px;
+                width: 100%;
+              }
+        }
+        .eligibility-right-cont{
+            img{
+                position: absolute;
+                right: -98px;
+                bottom: -89px;
+                width: 593px;
+                height: 593px;
+            }
+        }
+    }
+}

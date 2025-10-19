@@ -1,0 +1,27 @@
+@use '../utils' as *;
+
+.button-style{
+height: 55;
+opacity: 1;
+gap: 10px;
+border-radius: 45px;
+padding-top: 12.5px;
+padding-right: 25px;
+padding-bottom: 12.5px;
+padding-left: 25px;
+border-width: 1px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.primary-button{
+	color: #002B27;
+	background-color: #C2F4A0;
+	border: 1px solid #C2F4A0;
+}

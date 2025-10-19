@@ -1,0 +1,103 @@
+@use '../../utils' as *;
+
+.earnings-section{
+    background: var(--theme-primary-color);
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 60px;
+    .brand-logo{
+        position: absolute;
+        top: -40px;
+        right: 0;
+    }
+    .section-title-box{
+        h2{
+            max-width: 540px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .earning-table{
+        max-width: 1083px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        .table-success-head tr th{
+            padding: 25px;
+
+        }
+        tbody tr td{
+          
+        }
+    }
+    .earning-table {
+    max-width: 1083px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin-bottom: 0;
+
+    thead {
+      background-color: #004225 !important;
+      th { 
+        padding: 25px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #004225 !important;
+        border: 1px solid #C2F4A0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          background-color: rgba(0, 0, 0, 0.15);
+        }
+        &:nth-child(even) {
+          background-color: rgba(0, 0, 0, 0.25);
+        }
+      }
+      td {
+        padding: 35px;
+        text-align: center;
+        border: 1px solid #C2F4A0;
+        color: #eafaf1;
+        background-color: #004225;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+      }
+    }
+  }
+    .note{
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+}

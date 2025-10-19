@@ -1,0 +1,9 @@
+@use '../../utils' as *;
+
+.header-section{
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	top: 26px;
+	width: 100%;
+}

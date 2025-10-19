@@ -1,0 +1,85 @@
+@use '../../utils' as *;
+
+.faqs-section{
+    position: relative;
+    padding-top: 80px;
+    background-color: var(--theme-primary-color);
+    overflow: hidden;
+    .section-title-box{
+        display: flex;
+        align-items: start;
+        gap: 24px;
+        justify-content: space-between;
+        h2{
+            max-width: 828px;
+            width: 100%;
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: SemiBold;
+            font-size: 80px;
+            line-height: 1.1;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+        img{
+            object-fit: contain;
+            width: 80px;
+            height: 60px;
+        }
+        
+    }
+    .faq-wrapper-area{
+        display: flex; 
+        gap: 24px;
+        align-items: end;
+        justify-content: space-between;
+        .partner-scale-left-cont{
+            height: 480px;
+            width: 50%;
+            img{
+                position: absolute;
+                width: 593px;
+                height: 593px;
+                bottom: -111px;
+                left: -78px;
+            }
+
+        }
+        .partner-scale-right-cont{
+            padding-bottom: 139px;
+            ul{
+                 display: flex; 
+                 gap: 40px;
+                 flex-direction: column;
+                 max-width: 515px;
+                 width: 100%;
+                 margin-left: auto;
+                li{
+                    list-style: none;
+                h3{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                font-style: SemiBold;
+                font-size: 22px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #ffffff;
+                margin-bottom: 0;
+                }
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 18px;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                    margin-bottom: 0;
+                    margin-top: 6px;
+                    color: #ffffff;
+                }
+                }
+            }
+        }
+    }
+}
