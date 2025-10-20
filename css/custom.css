@@ -289,7 +289,7 @@ img {
 }
 .hero-section .hero-sec-wrapper .hero-right-cont .banner-modal-box .modal-img-2 {
   position: absolute;
-  right: -60px;
+  right: -112px;
   z-index: 99;
   min-width: 589px;
   height: 428px;
@@ -1450,4 +1450,4 @@ img {
   object-fit: contain;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=custom.css.map */
